@@ -1,0 +1,100 @@
+{% extends 'resumehome/navbar.html' %}
+{% load static %}
+
+{% block title%} Choose Resume{% endblock%}
+{% block css %}
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+    body{
+        background-color: white;
+        
+    }
+    .card-title{
+      font-family: 'Zen Antique Soft', serif;
+    }
+    .card-text{
+      font-family: 'Zen Kurenaido', sans-serif;
+    }
+</style>
+{% endblock %}
+
+{% block body%} 
+
+<div class="d-flex justify-content-around mt-5">
+
+  <div class="card" style="height: 400px; width: 300px; margin-left: 10px;">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="{% static 'images/c11.jpg' %}">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Cascade<i class="material-icons right">:</i></span>
+      <p>
+        <a href="/get_cover_form/11" class="btn btn-dark">Get Resume</a>
+        <a href="/get_demo/11" class="btn btn-dark" target="_blank">Demo</a>
+      </p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Cascade<i class="material-icons right">close</i></span>
+      <p>Professional resume template. Plenty of information, no clutter.</p>
+    </div>
+  </div>
+  <div class="card" style="height: 400px; width: 300px; margin-left: 10px;">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="{% static 'images/c2.jpg' %}">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Cascade<i class="material-icons right">:</i></span>
+      <p>
+        <a href="/get_cover_form/12" class="btn btn-dark">Get Resume</a>
+        <a href="/get_demo/12" class="btn btn-dark" target="_blank">Demo</a>
+      </p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Cascade<i class="material-icons right">close</i></span>
+      <p>Professional resume template. Plenty of information, no clutter.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="d-flex justify-content-around mt-5">
+
+  <div class="card" style="height: 400px; width: 300px; margin-left: 10px;">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="{% static 'images/c3.jpg' %}">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Cascade<i class="material-icons right">:</i></span>
+      <p>
+        <a href="/get_cover_form/13" class="btn btn-dark">Get Resume</a>
+        <a href="/get_demo/13" class="btn btn-dark" target="_blank">Demo</a>
+      </p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Cascade<i class="material-icons right">close</i></span>
+      <p>Professional resume template. Plenty of information, no clutter.</p>
+    </div>
+  </div>
+  <div class="card" style="height: 400px; width: 300px; margin-left: 10px;">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="{% static 'images/c4.jpg' %}">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Cascade<i class="material-icons right">:</i></span>
+      <p>
+        <a href="/get_cover_form/14" class="btn btn-dark">Get Resume</a>
+        <a href="/get_demo/14" class="btn btn-dark" target="_blank">Demo</a>
+      </p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Cascade<i class="material-icons right">close</i></span>
+      <p>Professional resume template. Plenty of information, no clutter.</p>
+    </div>
+  </div>
+
+</div>
+
+
+{% endblock%}
